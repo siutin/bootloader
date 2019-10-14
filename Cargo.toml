@@ -27,7 +27,7 @@ optional = true
 
 [build-dependencies]
 llvm-tools = { version = "0.1", optional = true }
-toml = { version = "0.5.1", optional = true }
+toml = { git = "https://github.com/siutin/toml-rs.git", branch = "master", optional = true }
 
 [features]
 default = []
